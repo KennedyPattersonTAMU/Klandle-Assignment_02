@@ -48,7 +48,7 @@ This project is a study looking to find the best method to simulate the effect o
 
 [![4-comma][images-fig2]](https://example.com)
 
-*Figure 2. Examples of notable stills from movies and games recreated in Midjourney by Reid Southen* 
+*Figure 2. Image of the reference sheet for the Klandle monster from Haint. Features images of melting flesh, candles, and klansman that are the inspiration for the sculpt and end melted image of the Klandle* 
 
 One of the largest ethical issues plaguing the new AI industry is the means by which many models acquired their training data [4]. The data is often scrapped from numerous sources across the internet without credit and used to train AI Image generation models. Those models then will often regurgitate those same stolen images in their outputs, sometimes without the user even knowing the generated image could be plagiarized and placing both the AI companies and their users at legal risk [2].
 
