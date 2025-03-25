@@ -37,11 +37,11 @@ Second Assignment for Generative Art and Design at Texas A&amp;M University
 
 [![4-comma][images-fig1]](https://example.com)
 
-*Figure 1. 6 images detailing the stages of creating the melting klandle simulation. The first image shows the initial sculpt of the klansman. The second image shows my initial simulation using actual candle melting as a basis. The third image is the rendered version of the first simulation. The fourth image is the initial version of my second simulation that instead looks to maintain the initial structure while melting. The fifth image is my final simulation that combines the realistic simulation and the one that maintains structure. The sixth image is the final render of that simulation*
+*Figure 1. 6 images detailing the stages of creating the melting klandle simulation. The first image shows the initial sculpt of the klansman. The second image shows my initial simulation using actual candle melting as a basis. The third image is the rendered version of the first simulation. The fourth image is the initial version of my second simulation that instead looks to maintain the initial structure while melting. The fifth image is my final simulation that combines the realistic simulation and the one that maintains structure. The sixth image is the final render of that simulation.*
 
 <!-- Abstract -->
 ## Abstract
-This project is a critique of attitudes that value art only as a method of making money and disregard the work and experience needed to create notable art. I highlight the ways that AI steals art through its training data and ignores ownership by recreating copyrighted characters through prompt engineering.
+This project is a study looking to find the best method to simulate the effect of a melting candle in a detailed mesh object, specifically the face of a Klansman. The results will inspire the design of the Klandle monster in my MFA Capstone Project, a video game called Haint.
 
 <!-- Introduction and Related Works -->
 ## Introduction and Related Works
