@@ -21,10 +21,10 @@ Second Assignment for Generative Art and Design at Texas A&amp;M University
 <div align="center">
   </a>
 
-  <h3 align="center">4-Comma: Squeezing Artists</h3>
+  <h3 align="center">Simulation Study: Melting Klandle</h3>
 
   <p align="center">
-    This project is a four panel comic critiquing the view of art as a comodity instead of as a process and expression of creativity. Following that is a report about plagiarism in AI and the ways image generation models are both trained on and continue to produce stolen art.
+    This project is a process study in melting simulations using Houdini in order to try to recreate the look of a candle melting while retaining the shape of the initial object throughout this process. The study is a part of the development of my MFA Capstone Project and video game Haint.
     <br />
     <a href="https://github.com/KennedyPattersonTAMU/4-Comma-Assignment_01/blob/main/PDF/Artists_Squeezed_Yonkoma.pdf"><strong>Link to PDF Report »</strong></a>
     <br />
@@ -37,7 +37,7 @@ Second Assignment for Generative Art and Design at Texas A&amp;M University
 
 [![4-comma][images-fig1]](https://example.com)
 
-*Figure 1. My yonkoma comic. The story involves a girl growing into an artist starting from a young child observing the world to an accomplished adult artist. The comic then shows her creativity being wrung out of her by a corporation symbolized by the Mickey Mouse gloved hands. The comic is made with Acryllic paint and photocopied poorly into a digital medium except for the copyrighted AI generated images wrung out of the artist. There is a deliberate dichotomy between the traditional art and its muted color palette and differing panel sizes and the bright, oversaturated AI images that starkly contrast from the rest of the comic*
+*Figure 1. 6 images detailing the stages of creating the melting klandle simulation. The first image shows the initial sculpt of the klansman. The second image shows my initial simulation using actual candle melting as a basis. The third image is the rendered version of the first simulation. The fourth image is the initial version of my second simulation that instead looks to maintain the initial structure while melting. The fifth image is my final simulation that combines the realistic simulation and the one that maintains structure. The sixth image is the final render of that simulation*
 
 <!-- Abstract -->
 ## Abstract
