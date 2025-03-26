@@ -41,7 +41,7 @@ Second Assignment for Generative Art and Design at Texas A&amp;M University
 
 <!-- Abstract -->
 ## Abstract
-This project is a study looking to find the best method to simulate the effect of a melting candle in a detailed mesh object, specifically the face of a Klansman. The results will inspire the design of the Klandle monster in my MFA Capstone Project, a video game called Haint.
+This project is a study looking to find the best method to simulate the effect of a melting candle in a detailed mesh object, specifically the face of a Klansman. The simulations will be done in 3 iterations. The first analyzing how a candle melts, the second, how to maintain structure in a melting simulation, and the last will combine the 2 for a combined structured, yet accurate result. The results of this study will inspire the design of the Klandle monster in my MFA Capstone Project, a video game called Haint.
 
 <!-- Introduction and Related Works -->
 ## Introduction and Related Works
@@ -54,7 +54,7 @@ One of the largest ethical issues plaguing the new AI industry is the means by w
 
 There have been recent efforts to make the generation methods of machine learning models more transparent through techniques such as Explainable AI (XAI) which could be a step towards solving these ethical issues [3]. But these efforts are likely to be ignored by large tech companies due to the effort and cost associated with ethically retraining such large models.
 
-The greed inherent in decisions such as these, shirking ethics in lieu of profit and disregarding laws that  protect artists, inspired my yonkoma. The panels follow the growth of an artist from youth to the peak of their career. Their steady growth is abruptly halted in the 3rd cell as they are captured, and all the creativity is wrung out of them in the form of plagiarized AI images. 
+The greed inherent in decisions such as these, shirking ethics in lieu of profit and disregarding laws that  protect artists, inspired my yonkoma. The panels follow the growth of an artist from youth to the peak of their career. Their steady growth is abruptly halted in the 3rd cell as they are captured, and all the creativity is wrung out of them in the form of plagiarized AI images. (200)
 
 
 ## Methodology
@@ -66,16 +66,16 @@ I started by researching prominent copyrighted characters that are very recogniz
 
 Initially, I was met with a statement that reminded the user that the character in question was under copyright protection and as such I would not be able to generate the character's exact likeness, only something similar. This is very different from the results of similar prompts only a year ago as investigated by Gary and Southen [2] (see Figure 2) which had no such warning appear and easily rendered the offending images. 
 
-However, that warning was just a warning, the training data DALLE-3 was trained on is still within its code, and so rather than stop my efforts it only slowed them down. I found that after several iterations on prompts, one could circumvent these protections if you either slowly added more details or were hyper-specific. It couldn't make a brown dog with a blue collar and black spots that solves mysteries with 4 teens but it could make a Great Dane, with brown fur, elongated proportions, and a 70's van.
+However, that warning was just a warning, the training data DALLE-3 was trained on is still within its code, and so rather than stop my efforts it only slowed them down. I found that after several iterations on prompts, one could circumvent these protections if you either slowly added more details or were hyper-specific. It couldn't make a brown dog with a blue collar and black spots that solves mysteries with 4 teens but it could make a Great Dane, with brown fur, elongated proportions, and a 70's van. (300)
 
 [![4-comma][images-fig4]](https://example.com)
 
 *Figure 4. A screencapture of the prompt to create the character of "The Hulk" owned by Marvel Entertainment and the image that it generated.*
 
 ## Result and Future Work
-I found that some characters were harder to recreate than others. It only took one prompt to generate the Incredible Hulk (see Figure 4.) but it took 14 prompts and re-wordings to get something poorly approximating Mickey Mouse before I gave up on the effort to generate the real deal. It seems that certain IPs are better protected than others. Whether due to repeated attempts by users to generate them or the litigiousness of the owners, one can only speculate. I would like to test the limits of this more with lesser-known properties in the future.
+I found that some characters were harder to recreate than others. It only took one prompt to generate the Incredible Hulk (see Figure 4.) but it took 14 prompts and re-wordings to get something poorly approximating Mickey Mouse before I gave up on the effort to generate the real deal. It seems that certain IPs are better protected than others. Whether due to repeated attempts by users to generate them or the litigiousness of the owners, one can only speculate. I would like to test the limits of this more with lesser-known properties in the future. (200)
 ## Conclusion
-In conclusion, Generative AI has a fundamental problem with plagiarism that will continue to cause issues despite the changes being attempted to fix it. This plagiarism is disrespectful to artists and unethical and will take a change in attitude and lots of work and money to fix.
+In conclusion, Generative AI has a fundamental problem with plagiarism that will continue to cause issues despite the changes being attempted to fix it. This plagiarism is disrespectful to artists and unethical and will take a change in attitude and lots of work and money to fix. (100)
 
 <!-- Bibliography -->
 ## Bibliography 
