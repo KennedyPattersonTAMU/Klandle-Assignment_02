@@ -50,12 +50,11 @@ This project is a study looking to find the best method to simulate the effect o
 
 *Figure 2. Image of the reference sheet for the Klandle monster from Haint. Features images of melting flesh, candles, and klansman that are the inspiration for the sculpt and end melted image of the Klandle* 
 
-One of the largest ethical issues plaguing the new AI industry is the means by which many models acquired their training data [4]. The data is often scrapped from numerous sources across the internet without credit and used to train AI Image generation models. Those models then will often regurgitate those same stolen images in their outputs, sometimes without the user even knowing the generated image could be plagiarized and placing both the AI companies and their users at legal risk [2].
+The Klandle monster is a recreation of a KKK member whose flesh is made of candle wax and is melting in hellfire. In order to accurately simulate such a creature I have to study the ways in which wax melts and simulate it in an aesthetically pleasing way. 
 
-There have been recent efforts to make the generation methods of machine learning models more transparent through techniques such as Explainable AI (XAI) which could be a step towards solving these ethical issues [3]. But these efforts are likely to be ignored by large tech companies due to the effort and cost associated with ethically retraining such large models.
+Wax as a material initially melts, flows, and then re-solidifies [1] when heated and cooled. The shape and container of the wax can change its melting properties [2] and once a wax turns to a liquid state it can be difficult to simulate the turbulence variation in its surface to a high fidelity [3] , variation of which will be retained in its re-solidified state. 
 
-The greed inherent in decisions such as these, shirking ethics in lieu of profit and disregarding laws that  protect artists, inspired my yonkoma. The panels follow the growth of an artist from youth to the peak of their career. Their steady growth is abruptly halted in the 3rd cell as they are captured, and all the creativity is wrung out of them in the form of plagiarized AI images. (200)
-
+This study uses point-based FLIP [3] simulation in Houdini and a bump map utilizing (equation) as an equation to weight the turbulence of nearby points into a smoother and higher resolution simulation [3].  The simulations are generated in 3 phases: the first testing the best parameters for generating a life-like candle simulation (density, viscosity, etc.), the second creating a simulation that visibly maintains the original geometry, and the third combining the two previous iterations to create a final simulation that maintains both form as well as accuracy. 
 
 ## Methodology
 [![4-comma][images-fig3]](https://example.com)
