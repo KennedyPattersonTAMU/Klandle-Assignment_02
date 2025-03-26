@@ -63,15 +63,19 @@ This study uses point-based FLIP [3] simulation in Houdini and a bump map utiliz
 ## Methodology
 
 
-I started by researching prominent copyrighted characters that are very recognizable by the general public. I settled on Mickey Mouse, owned by Disney, The Incredible Hulk owned by Marvel Entertainment, and Scooby-Doo owned by Warner Brothers Entertainment. I then proceeded to prompt DALLE-3, an image generation AI model owned by OpenAI, to try and recreate the character.
-
-Initially, I was met with a statement that reminded the user that the character in question was under copyright protection and as such I would not be able to generate the character's exact likeness, only something similar. This is very different from the results of similar prompts only a year ago as investigated by Gary and Southen [2] (see Figure 2) which had no such warning appear and easily rendered the offending images. 
-
-However, that warning was just a warning, the training data DALLE-3 was trained on is still within its code, and so rather than stop my efforts it only slowed them down. I found that after several iterations on prompts, one could circumvent these protections if you either slowly added more details or were hyper-specific. It couldn't make a brown dog with a blue collar and black spots that solves mysteries with 4 teens but it could make a Great Dane, with brown fur, elongated proportions, and a 70's van. (300)
+ (300)
 
 [![4-comma][images-fig4]](https://example.com)
 
-*Figure 4. A screencapture of the prompt to create the character of "The Hulk" owned by Marvel Entertainment and the image that it generated.*
+*Figure 4. A video capture of the first simulation focused upon accurate candle creation.*
+
+[![4-comma][images-fig5]](https://example.com)
+
+*Figure 5. A video Capture of the second simulation focused upon maintaining form accuracy*
+
+[![4-comma][images-fig5]](https://example.com)
+
+*Figure 5. A video Capture of the final simulation*
 
 ## Result and Future Work
 I found that some characters were harder to recreate than others. It only took one prompt to generate the Incredible Hulk (see Figure 4.) but it took 14 prompts and re-wordings to get something poorly approximating Mickey Mouse before I gave up on the effort to generate the real deal. It seems that certain IPs are better protected than others. Whether due to repeated attempts by users to generate them or the litigiousness of the owners, one can only speculate. I would like to test the limits of this more with lesser-known properties in the future. (200)
@@ -102,7 +106,7 @@ Personal Website: [https://kennedpatterson.artstation.com/](https://kennedpatter
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-This work is submitted as part of Assignment 1 for the VIZA 626 course at Texas A&M University, under the instruction of Professor You-Jin Kim, during the Spring 2025 semester.
+This work is submitted as part of Assignment 2 for the VIZA 626 course at Texas A&M University, under the instruction of Professor You-Jin Kim, during the Spring 2025 semester.
 
 VIZA 626 Class Website: [https://sites.google.com/view/viza626/](https://sites.google.com/view/viza626/home)
 
