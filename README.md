@@ -78,14 +78,13 @@ In conclusion, Generative AI has a fundamental problem with plagiarism that will
 
 <!-- Bibliography -->
 ## Bibliography 
-[1] Abell, Catharine. “Art: What It Is and Why It Matters.” Philosophy and Phenomenological Research, vol. 85, no. 3, 21 July 2011, pp. 671–691, https://doi.org/10.1111/j.1933-1592.2011.00498.x. Accessed 28 Feb. 2019.
+[1] Carlson, Mark, et al. “Melting and Flowing.” Association of Computing Machinery, 21 July 2002, dl.acm.org/doi/abs/10.1145/545261.545289, https://doi.org/10.1145/545261.545289. Accessed 25 Mar. 2025.
 
-[2] Marcus, Gary, and Reid Southen. “Generative AI Has a Visual Plagiarism Problem - IEEE Spectrum.” Spectrum.ieee.org, IEEE, 6 Jan. 2024, spectrum.ieee.org/midjourney-copyright. Accessed 25 Feb. 2025.
+[2] Ghosh, Debasree, and Chandan Guha. “Numerical and Experimental Investigation of Paraffin Wax Melting in Spherical Cavity.” Heat and Mass Transfer, vol. 55, no. 5, 23 Nov. 2018, pp. 1427–1437, link.springer.com/article/10.1007/s00231-018-2522-0, https://doi.org/10.1007/s00231-018-2522-0. Accessed 25 Mar. 2025.
 
-[3] Tweed, Laurel. “AI’s Role in Ethical Decision-Making: Fostering Fairness in Critical Systems with Explainable AI (XAI).” IEEE Computer Society, IEEE, 31 Jan. 2025, www.computer.org/publications/tech-news/community-voices/explainable-ai. Accessed 25 Feb. 2025. 
+[3] Mercier, Olivier, et al. “Surface Turbulence for Particle-Based Liquid Simulations.” ACM Transactions on Graphics, vol. 34, no. 6, 2 Nov. 2015, pp. 1–10, www-labs.iro.umontreal.ca/~derek/files/surfaceWaves.pdf, https://doi.org/10.1145/2816795.2818115. Accessed 9 Feb. 2024.
 
-[4] Avey, Chester. “Ethical Pros and Cons of AI Image Generation.” IEEE Computer Society, IEEE, 27 Dec. 2023, www.computer.org/publications/tech-news/community-voices/ethics-of-ai-image-generation. Accessed 25 Feb. 2025.
-
+[4] Teng, Yun, et al. “Eulerian Solid-Fluid Coupling.” ACM Transactions on Graphics, vol. 35, no. 6, 11 Nov. 2016, pp. 1–8, www.tkim.graphics/EULERSF/TengLevinKim2016.pdf, https://doi.org/10.1145/2980179.2980229. Accessed 26 Mar. 2025.
 
 
 <!-- CONTACT -->
