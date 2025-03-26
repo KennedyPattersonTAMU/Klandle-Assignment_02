@@ -43,12 +43,16 @@ Second Assignment for Generative Art and Design at Texas A&amp;M University
 ## Abstract
 This project is a study looking to find the best method to simulate the effect of a melting candle in a detailed mesh object, specifically the face of a Klansman. The simulations will be done in 3 iterations. The first analyzing how a candle melts, the second, how to maintain structure in a melting simulation, and the last will combine the 2 for a combined structured, yet accurate result. The results of this study will inspire the design of the Klandle monster in my MFA Capstone Project, a video game called Haint.
 
+[![4-comma][images-fig2]](https://example.com)
+
+*Figure 2. Image of the reference sheet for the Klandle monster from Haint. Features images of melting flesh, candles, and klansman that are the inspiration for the sculpt and melting simulations.* 
+
 <!-- Introduction and Related Works -->
 ## Introduction and Related Works
 
-[![4-comma][images-fig2]](https://example.com)
+[![4-comma][images-fig3]](https://example.com)
 
-*Figure 2. Image of the reference sheet for the Klandle monster from Haint. Features images of melting flesh, candles, and klansman that are the inspiration for the sculpt and end melted image of the Klandle* 
+*Figure 3. An image of simulated point-based fluid simulation in-progress in Houdini. An image of the surface maintenance graphic from the Surface Turbulance paper [3]*
 
 The Klandle monster is a recreation of a KKK member whose flesh is made of candle wax and is melting in hellfire. In order to accurately simulate such a creature I have to study the ways in which wax melts and simulate it in an aesthetically pleasing way. 
 
@@ -57,9 +61,7 @@ Wax as a material initially melts, flows, and then re-solidifies [1] when heated
 This study uses point-based FLIP [3] simulation in Houdini and a bump map utilizing (equation) as an equation to weight the turbulence of nearby points into a smoother and higher resolution simulation [3].  The simulations are generated in 3 phases: the first testing the best parameters for generating a life-like candle simulation (density, viscosity, etc.), the second creating a simulation that visibly maintains the original geometry, and the third combining the two previous iterations to create a final simulation that maintains both form as well as accuracy. 
 
 ## Methodology
-[![4-comma][images-fig3]](https://example.com)
 
-*Figure 3. A collection of the prompts (black text) and the images they generated in ChatGPT's DALLE-3 Image Generator. These images document the process to recreate the animated character Scooby Doo owned by Warner Brothers Entertainment despite OpenAI's copyright protections.*
 
 I started by researching prominent copyrighted characters that are very recognizable by the general public. I settled on Mickey Mouse, owned by Disney, The Incredible Hulk owned by Marvel Entertainment, and Scooby-Doo owned by Warner Brothers Entertainment. I then proceeded to prompt DALLE-3, an image generation AI model owned by OpenAI, to try and recreate the character.
 
