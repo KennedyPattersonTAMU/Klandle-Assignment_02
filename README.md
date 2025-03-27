@@ -36,6 +36,11 @@ Second Assignment for Generative Art and Design at Texas A&amp;M University
 </div>
 
 [![4-comma][images-fig1]](https://example.com)
+[![4-comma][images-fig2]](https://example.com)
+[![4-comma][images-fig3]](https://example.com)
+[![4-comma][images-fig4]](https://example.com)
+[![4-comma][images-fig5]](https://example.com)
+[![4-comma][images-fig6]](https://example.com)
 
 *Figure 1. 6 images detailing the stages of creating the melting klandle simulation. The first image shows the initial sculpt of the klansman. The second image shows my initial simulation using actual candle melting as a basis. The third image is the mesh version of the first simulation. The fourth image is the initial version of my second simulation that instead looks to maintain the initial structure while melting.The fifth image is the mesh version of my second iteration. The sixth image is my final simulation that combines the realistic simulation and the one that maintains structure.*
 
@@ -43,14 +48,14 @@ Second Assignment for Generative Art and Design at Texas A&amp;M University
 ## Abstract
 This project is a study looking to find the best method to simulate the effect of a melting candle in a detailed mesh object, specifically the face of a Klansman. The simulations will be done in 3 iterations. The first analyzing how a candle melts, the second, how to maintain structure in a melting simulation, and the last will combine the 2 for a combined structured, yet accurate result. The results of this study will inspire the design of the Klandle monster in my MFA Capstone Project, a video game called Haint.
 
-[![4-comma][images-fig2]](https://example.com)
+[![4-comma][images-fig7]](https://example.com)
 
 *Figure 2. Image of the reference sheet for the Klandle monster from Haint. Features images of melting flesh, candles, and klansman that are the inspiration for the sculpt and melting simulations.* 
 
 <!-- Introduction and Related Works -->
 ## Introduction and Related Works
 
-[![4-comma][images-fig3]](https://example.com)
+[![4-comma][images-fig8]](https://example.com)
 
 *Figure 3. An image of simulated point-based fluid simulation in-progress in Houdini. An image of the surface maintenance graphic from the Surface Turbulance paper [3]*
 
@@ -62,7 +67,7 @@ This study uses point-based FLIP [3] simulation in Houdini and a bump map utiliz
 
 ## Methodology
 
-[![4-comma][images-fig4]](https://example.com)
+[![4-comma][images-fig9]](https://example.com)
 
 *Figure 4. A video capture of the first simulation focused upon accurate candle creation.*
 
@@ -70,7 +75,7 @@ I started my project using a FLIP melting simulation in Houdini and changed the 
 
 The primary issue is that the simulation completely destroys all details in the mesh so that it is impossible to tell what the original model was. My next pass would need to simulate melting while maintaining detail.
 
-[![4-comma][images-fig5]](https://example.com)
+[![4-comma][images-fig10]](https://example.com)
 
 *Figure 5. A video capture of the second simulation focused upon maintaining form accuracy*
 
@@ -78,7 +83,7 @@ I found a tutorial online that creates a mask from the temperature of the object
 
 In my final iteration I attempted to combine the strengths of the previous two passes. I wanted to preserve the accuracy of the candle simulation of the first while maintaining the detail of the second. This last iteration largely ended in failure as I could not get the mask to work with the first iterations fluid simulation. As such, the two iterations of the melting simulation did not merge correctly and instead left a very fake looking end result. 
 
-[![4-comma][images-fig6]](https://example.com)
+[![4-comma][images-fig11]](https://example.com)
 
 *Figure 6. An image capture of the final simulation*
 
@@ -140,6 +145,11 @@ VIZA 626 Class Website: [https://sites.google.com/view/viza626/](https://sites.g
 [images-fig4]: images/fig4.png
 [images-fig5]: images/fig5.png
 [images-fig6]: images/fig6.png
+[images-fig7]: images/fig7.png
+[images-fig8]: images/fig8.png
+[images-fig9]: images/fig9.png
+[images-fig10]: images/fig10.png
+[images-fig11]: images/fig11.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
