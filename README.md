@@ -96,7 +96,11 @@ In my final iteration I attempted to combine the strengths of the previous two p
 [![fig11](https://img.https://youtu.be/SFG0N-d0FFg)](https://youtu.be/SFG0N-d0FFg)
 
 
-*Figure 6. An image capture of the final simulation*
+*Figure 6. A video capture of the shaded initial simulation*
+
+[![4-comma][images-fig6]](https://example.com)
+
+*Figure 7. An image capture of the shaded initial simulation*
 
 ## Result and Future Work
 
