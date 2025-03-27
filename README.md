@@ -83,7 +83,8 @@ I found a tutorial online that creates a mask from the temperature of the object
 
 In my final iteration I attempted to combine the strengths of the previous two passes. I wanted to preserve the accuracy of the candle simulation of the first while maintaining the detail of the second. This last iteration largely ended in failure as I could not get the mask to work with the first iterations fluid simulation. As such, the two iterations of the melting simulation did not merge correctly and instead left a very fake looking end result. 
 
-[![4-comma][images-fig11]](https://example.com)
+<video src="images-fig11.mp4" width="320" height="240" controls></video>
+
 
 *Figure 6. An image capture of the final simulation*
 
@@ -149,7 +150,8 @@ VIZA 626 Class Website: [https://sites.google.com/view/viza626/](https://sites.g
 [images-fig8]: images/fig8.png
 [images-fig9]: images/fig9.png
 [images-fig10]: images/fig10.png
-[images-fig11]: images/fig11.png
+<video src="images/fig11.mp4" width="320" height="240" controls></video>
+
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
