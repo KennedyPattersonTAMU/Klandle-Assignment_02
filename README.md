@@ -63,7 +63,7 @@ The Klandle monster is a recreation of a KKK member whose flesh is made of candl
 
 Wax as a material initially melts, flows, and then re-solidifies [1] when heated and cooled. The shape and container of the wax can change its melting properties [2] and once a wax turns to a liquid state it can be difficult to simulate the turbulence variation in its surface to a high fidelity [3] , variation of which will be retained in its re-solidified state. 
 
-This study uses point-based FLIP [3] simulation in Houdini and a bump map utilizing (equation) as an equation to weight the turbulence of nearby points into a smoother and higher resolution simulation [3].  The simulations are generated in 3 phases: the first testing the best parameters for generating a life-like candle simulation (density, viscosity, etc.), the second creating a simulation that visibly maintains the original geometry, and the third combining the two previous iterations to create a final simulation that maintains both form as well as accuracy. 
+This study uses point-based FLIP [3] simulation in Houdini and a bump map utilizing [![4-comma][images-equation]](https://example.com) as an equation to weight the turbulence of nearby points into a smoother and higher resolution simulation [3].  The simulations are generated in 3 phases: the first testing the best parameters for generating a life-like candle simulation (density, viscosity, etc.), the second creating a simulation that visibly maintains the original geometry, and the third combining the two previous iterations to create a final simulation that maintains both form as well as accuracy. 
 
 ## Methodology
 
@@ -152,6 +152,7 @@ VIZA 626 Class Website: [https://sites.google.com/view/viza626/](https://sites.g
 [images-fig8]: images/fig8.png
 [images-fig9]: images/fig9.png
 [images-fig10]: images/fig10.png
+[images-equation]: images/equation.png
 <video src="images/fig11.mp4" width="320" height="240" controls></video>
 
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
