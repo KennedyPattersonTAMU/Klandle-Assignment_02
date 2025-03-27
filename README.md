@@ -37,7 +37,7 @@ Second Assignment for Generative Art and Design at Texas A&amp;M University
 
 [![4-comma][images-fig1]](https://example.com)
 
-*Figure 1. 6 images detailing the stages of creating the melting klandle simulation. The first image shows the initial sculpt of the klansman. The second image shows my initial simulation using actual candle melting as a basis. The third image is the rendered version of the first simulation. The fourth image is the initial version of my second simulation that instead looks to maintain the initial structure while melting. The fifth image is my final simulation that combines the realistic simulation and the one that maintains structure. The sixth image is the final render of that simulation.*
+*Figure 1. 6 images detailing the stages of creating the melting klandle simulation. The first image shows the initial sculpt of the klansman. The second image shows my initial simulation using actual candle melting as a basis. The third image is the mesh version of the first simulation. The fourth image is the initial version of my second simulation that instead looks to maintain the initial structure while melting.The fifth image is the mesh version of my second iteration. The sixth image is my final simulation that combines the realistic simulation and the one that maintains structure.*
 
 <!-- Abstract -->
 ## Abstract
@@ -62,20 +62,25 @@ This study uses point-based FLIP [3] simulation in Houdini and a bump map utiliz
 
 ## Methodology
 
-
- (300)
-
 [![4-comma][images-fig4]](https://example.com)
 
 *Figure 4. A video capture of the first simulation focused upon accurate candle creation.*
 
+I started my project using a FLIP melting simulation in Houdini and changed the density of the fluid object to match that of a solid except for in the presence of high temperatures. I then created an heat-source with a randomly patterned surface and a high temperature so that the candle would melt only on where the source touched. I then animated the surface and position of the heat source to melt the candle in random sections from top to bottom. This method of simulation was very accurate in simulating candle melting as well as being variable in the future.
+
+The primary issue is that the simulation completely destroys all details in the mesh so that it is impossible to tell what the original model was. My next pass would need to simulate melting while maintaining detail.
+
 [![4-comma][images-fig5]](https://example.com)
 
-*Figure 5. A video Capture of the second simulation focused upon maintaining form accuracy*
+*Figure 5. A video capture of the second simulation focused upon maintaining form accuracy*
 
-[![4-comma][images-fig5]](https://example.com)
+I found a tutorial online that creates a mask from the temperature of the object. In places where the temperature is high the mask is active. Once a part of the model has an active mask the melting animation proceeds in a low detail version of the model and the mesh disappears in a high detail version of the model. This allows for gradients of detail in the mesh as the heat changes which adds verisimilitude to the simulation. The major issue with this second pass is that it does not  accurately melt the candle. While it is a very good overall melting simulation, it is not a very good *candle* melting simulation.
 
-*Figure 5. A video Capture of the final simulation*
+In my final iteration I attempted to combine the strengths of the previous two passes. I wanted to preserve the accuracy of the candle simulation of the first while maintaining the detail of the second. This last iteration largely ended in failure as I could not get the mask to work with the first iterations fluid simulation. As such, the two iterations of the melting simulation did not merge correctly and instead left a very fake looking end result. 
+
+[![4-comma][images-fig6]](https://example.com)
+
+*Figure 6. An image capture of the final simulation*
 
 ## Result and Future Work
 I found that some characters were harder to recreate than others. It only took one prompt to generate the Incredible Hulk (see Figure 4.) but it took 14 prompts and re-wordings to get something poorly approximating Mickey Mouse before I gave up on the effort to generate the real deal. It seems that certain IPs are better protected than others. Whether due to repeated attempts by users to generate them or the litigiousness of the owners, one can only speculate. I would like to test the limits of this more with lesser-known properties in the future. (200)
