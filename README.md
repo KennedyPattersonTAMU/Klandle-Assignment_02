@@ -83,9 +83,13 @@ In my final iteration I attempted to combine the strengths of the previous two p
 *Figure 6. An image capture of the final simulation*
 
 ## Result and Future Work
-I found that some characters were harder to recreate than others. It only took one prompt to generate the Incredible Hulk (see Figure 4.) but it took 14 prompts and re-wordings to get something poorly approximating Mickey Mouse before I gave up on the effort to generate the real deal. It seems that certain IPs are better protected than others. Whether due to repeated attempts by users to generate them or the litigiousness of the owners, one can only speculate. I would like to test the limits of this more with lesser-known properties in the future. (200)
+
+I would like to iterate on the final pass of the combined simulations and use that final pass to create a higher poly sculpted mesh of the Klandle character. I feel as if more time and research is needed in order to achieve a truly perfect simulation. I would also like to test a way to simulate dripping down the sides of the model as I see that is a prominent part of reference that I've used throughout this project that is not replicated well in either simulation. 
+
+I found the end result of this study to be lackluster but the process highly informative and would like to use node-based simulation as a prototyping tool in the future. I think the ability to itterate is a lot more forgiving than with physical media and saves more time than attempting to sculpt the object did. I simply need more experience with the software.
+
 ## Conclusion
-In conclusion, Generative AI has a fundamental problem with plagiarism that will continue to cause issues despite the changes being attempted to fix it. This plagiarism is disrespectful to artists and unethical and will take a change in attitude and lots of work and money to fix. (100)
+In conclusion, Houdini is an excellent way of prototyping physics simulations for artistic reference and is a good way of learning how to work with diverse materials to create a better overall product. I will continue to use it in my workflow and hopefully be better equipped to tackle this challenge in the future. 
 
 <!-- Bibliography -->
 ## Bibliography 
