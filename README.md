@@ -91,7 +91,7 @@ I found a tutorial online that creates a mask from the temperature of the object
 
 In my final iteration I attempted to combine the strengths of the previous two passes. I wanted to preserve the accuracy of the candle simulation of the first while maintaining the detail of the second. This last iteration largely ended in failure as I could not get the mask to work with the first iterations fluid simulation. As such, the two iterations of the melting simulation did not merge correctly and instead left a very fake looking end result. 
 
-[![4-comma][images-fig11]](https://img.https://youtu.be/SFG0N-d0FFg)](https://youtu.be/SFG0N-d0FFg)
+[![4-comma][images-fig11]](https://img.https://youtu.be/SFG0N-d0FFg)]
 
 [![fig11](https://img.https://youtu.be/SFG0N-d0FFg)](https://youtu.be/SFG0N-d0FFg)
 
