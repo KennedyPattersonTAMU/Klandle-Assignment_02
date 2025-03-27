@@ -100,7 +100,7 @@ In my final iteration I attempted to combine the strengths of the previous two p
 
 [![4-comma][images-fig6]](https://example.com)
 
-*Figure 7. An image capture of the shaded initial simulation*
+*Figure 7. An image capture of the shaded final simulation*
 
 ## Result and Future Work
 
