@@ -68,6 +68,7 @@ This study uses point-based FLIP [3] simulation in Houdini and a bump map utiliz
 ## Methodology
 
 [![4-comma][images-fig9]](https://example.com)
+[![fig9](https://youtu.be/X0WJpJaHfVo)](https://youtu.be/X0WJpJaHfVo)
 
 *Figure 4. A video capture of the first simulation focused upon accurate candle creation.*
 
@@ -76,6 +77,7 @@ I started my project using a FLIP melting simulation in Houdini and changed the 
 The primary issue is that the simulation completely destroys all details in the mesh so that it is impossible to tell what the original model was. My next pass would need to simulate melting while maintaining detail.
 
 [![4-comma][images-fig10]](https://example.com)
+[![fig10](https://img.https://youtu.be/i8UyYToHp5Q)](https://youtu.be/i8UyYToHp5Q)
 
 *Figure 5. A video capture of the second simulation focused upon maintaining form accuracy*
 
