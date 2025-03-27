@@ -72,7 +72,7 @@ as an equation to weight the turbulence of nearby points into a smoother and hig
 ## Methodology
 
 [![4-comma][images-fig9]](https://example.com)
-[![fig9](https://youtu.be/X0WJpJaHfVo)](https://youtu.be/X0WJpJaHfVo)
+[![fig9](https://img.youtu.be/X0WJpJaHfVo.jpg)](https://youtu.be/X0WJpJaHfVo)
 
 *Figure 4. A video capture of the first simulation focused upon accurate candle creation.*
 
