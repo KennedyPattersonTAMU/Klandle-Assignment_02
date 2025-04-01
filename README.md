@@ -67,8 +67,6 @@ This study uses particle-based FLIP [5] simulation in Houdini that utilizes the 
 
 [![4-comma][images-equation]](https://example.com) 
 
-[![4-comma][images-equation2]](https://example.com) 
-
 to calculate the viscosity and velocity of particles in fluids and then simulate a mesh using said particles.  My simulations are generated in 3 phases: the first testing the best parameters for generating a life-like candle simulation (density, viscosity, etc.), the second creating a simulation that visibly maintains the original geometry, and the third combining the two previous iterations to create a final simulation that maintains both form as well as accuracy. 
 
 
