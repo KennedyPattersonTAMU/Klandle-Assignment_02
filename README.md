@@ -63,11 +63,16 @@ The Klandle monster is a recreation of a KKK member whose flesh is made of candl
 
 Wax as a material initially melts, flows, and then re-solidifies [1] when heated and cooled. The shape and container of the wax can change its melting properties [2] and once a wax turns to a liquid state it can be difficult to simulate the turbulence variation in its surface to a high fidelity [3] , variation of which will be retained in its re-solidified state. 
 
-This study uses point-based FLIP [3] simulation in Houdini and a bump map utilizing 
+This study uses particle-based FLIP [5] simulation in Houdini that utilizes the Navier-Stokes equations 
 
 [![4-comma][images-equation]](https://example.com) 
 
-as an equation to weight the turbulence of nearby points into a smoother and higher resolution simulation [3].  The simulations are generated in 3 phases: the first testing the best parameters for generating a life-like candle simulation (density, viscosity, etc.), the second creating a simulation that visibly maintains the original geometry, and the third combining the two previous iterations to create a final simulation that maintains both form as well as accuracy. 
+[![4-comma][images-equation2]](https://example.com) 
+
+to calculate the viscosity and velocity of particles in fluids and then simulate a mesh using said particles.  My simulations are generated in 3 phases: the first testing the best parameters for generating a life-like candle simulation (density, viscosity, etc.), the second creating a simulation that visibly maintains the original geometry, and the third combining the two previous iterations to create a final simulation that maintains both form as well as accuracy. 
+
+[![4-comma][images-equation]](https://example.com) 
+
 
 ## Methodology
 
@@ -121,6 +126,8 @@ In conclusion, Houdini is an excellent way of prototyping physics simulations fo
 
 [4] Teng, Yun, et al. “Eulerian Solid-Fluid Coupling.” ACM Transactions on Graphics, vol. 35, no. 6, 11 Nov. 2016, pp. 1–8, www.tkim.graphics/EULERSF/TengLevinKim2016.pdf, https://doi.org/10.1145/2980179.2980229. Accessed 26 Mar. 2025.
 
+[5] Englesson, Dan, et al. “Fluid Simulation Using Implicit Particles Advanced Game Programming.” 20 Dec. 2011.
+
 
 <!-- CONTACT -->
 ## Contact
@@ -167,6 +174,7 @@ VIZA 626 Class Website: [https://sites.google.com/view/viza626/](https://sites.g
 [images-fig11]: images/fig11.png
 [images-fig12]: images/fig12.png
 [images-equation]: images/equation.png
+[images-equation2]: images/equation2.png
 <video src="images/fig11.mp4" width="320" height="240" controls></video>
 
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
