@@ -98,7 +98,7 @@ In my final iteration I attempted to combine the strengths of the previous two p
 
 *Figure 6. A video capture of the shaded initial simulation*
 
-[![4-comma][images-fig6]](https://example.com)
+[![4-comma][images-fig12]](https://example.com)
 
 *Figure 7. An image capture of the shaded final simulation*
 
@@ -165,6 +165,7 @@ VIZA 626 Class Website: [https://sites.google.com/view/viza626/](https://sites.g
 [images-fig9]: images/fig9.png
 [images-fig10]: images/fig10.png
 [images-fig11]: images/fig11.png
+[images-fig12]: images/fig12.png
 [images-equation]: images/equation.png
 <video src="images/fig11.mp4" width="320" height="240" controls></video>
 
