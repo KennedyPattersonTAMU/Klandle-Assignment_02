@@ -57,7 +57,7 @@ This project is a study looking to find the best method to simulate the effect o
 
 [![4-comma][images-fig8]](https://example.com)
 
-*Figure 3.  An image of the surface maintenance graphic from the Surface Turbulance paper [3]*
+*Figure 3.  An image of simulation 1 as a particle-based FLIP simulation before mesh is created out of the voxels. *
 
 The Klandle monster is a recreation of a KKK member whose flesh is made of candle wax and is melting in hellfire. In order to accurately simulate such a creature I have to study the ways in which wax melts and simulate it in an aesthetically pleasing way. 
 
