@@ -73,19 +73,19 @@ as an equation to weight the turbulence of nearby points into a smoother and hig
 
 [![4-comma][images-fig9]](https://youtu.be/X0WJpJaHfVo)
 
-[![video capture on Youtube](https://img.youtu.be/X0WJpJaHfVo.jpg)](https://youtu.be/X0WJpJaHfVo)
+[![Video capture on Youtube](https://img.youtu.be/X0WJpJaHfVo.jpg)](https://youtu.be/X0WJpJaHfVo)
 
-*Figure 4. A video capture of the first simulation focused upon accurate candle creation.*
+*Figure 4. A video capture of the first simulation points melting. This simulation is focused on accurately recreating the melting pattern of a candle.*
 
 I started my project using a FLIP melting simulation in Houdini and changed the density of the fluid object to match that of a solid except for in the presence of high temperatures. I then created an heat-source with a randomly patterned surface and a high temperature so that the candle would melt only on where the source touched. I then animated the surface and position of the heat source to melt the candle in random sections from top to bottom. This method of simulation was very accurate in simulating candle melting as well as being variable in the future.
 
 The primary issue is that the simulation completely destroys all details in the mesh so that it is impossible to tell what the original model was. My next pass would need to simulate melting while maintaining detail.
 
-[![4-comma][images-fig10]](https://example.com)
+[![4-comma][images-fig10]](https://youtu.be/i8UyYToHp5Q)
 
-[![fig10](https://img.https://youtu.be/i8UyYToHp5Q)](https://youtu.be/i8UyYToHp5Q)
+[![Video capture on Youtube](https://img.https://youtu.be/i8UyYToHp5Q)](https://youtu.be/i8UyYToHp5Q)
 
-*Figure 5. A video capture of the second simulation focused upon maintaining form accuracy*
+*Figure 5. A video capture of the second simulation points melting. This simulation is focused on maintaing the details of the mesh*
 
 I found a tutorial online that creates a mask from the temperature of the object. In places where the temperature is high the mask is active. Once a part of the model has an active mask the melting animation proceeds in a low detail version of the model and the mesh disappears in a high detail version of the model. This allows for gradients of detail in the mesh as the heat changes which adds verisimilitude to the simulation. The major issue with this second pass is that it does not  accurately melt the candle. While it is a very good overall melting simulation, it is not a very good *candle* melting simulation.
 
@@ -93,14 +93,14 @@ In my final iteration I attempted to combine the strengths of the previous two p
 
 [![4-comma][images-fig11]](https://img.https://youtu.be/SFG0N-d0FFg)]
 
-[![fig11](https://img.https://youtu.be/SFG0N-d0FFg)](https://youtu.be/SFG0N-d0FFg)
+[![Video capture on Youtube](https://img.https://youtu.be/SFG0N-d0FFg)](https://youtu.be/SFG0N-d0FFg)
 
 
 *Figure 6. A video capture of the shaded initial simulation*
 
 [![4-comma][images-fig12]](https://example.com)
 
-*Figure 7. An image capture of the shaded final simulation*
+*Figure 7. An image sequence of frames from the shaded final simulation*
 
 ## Result and Future Work
 
