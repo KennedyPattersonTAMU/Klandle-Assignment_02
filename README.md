@@ -86,7 +86,7 @@ The primary issue is that the simulation completely destroys all details in the 
 
 [![Video capture on Youtube](https://img.https://youtu.be/i8UyYToHp5Q)](https://youtu.be/i8UyYToHp5Q)
 
-*Figure 5. A video capture of the second simulation points melting. This simulation is focused on maintaing the details of the mesh*
+*Figure 5. An image sequence of frames from the second simulation points melting. This simulation is focused on maintaing the details of the mesh*
 
 I found a tutorial online that creates a mask from the temperature of the object. In places where the temperature is high the mask is active. Once a part of the model has an active mask the melting animation proceeds in a low detail version of the model and the mesh disappears in a high detail version of the model. This allows for gradients of detail in the mesh as the heat changes which adds verisimilitude to the simulation. The major issue with this second pass is that it does not  accurately melt the candle. While it is a very good overall melting simulation, it is not a very good *candle* melting simulation.
 
